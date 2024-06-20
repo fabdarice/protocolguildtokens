@@ -1,11 +1,12 @@
 // SPDX-License-Identifier: UNLICENSED
 pragma solidity ^0.8.13;
 
-contract Counter {
-    uint256 public number;
+contract PGERC20 is {
+    internal constant PG_ADDRESS = 0x25941dC771bB64514Fc8abBce970307Fb9d477e9;
 
-    function setNumber(uint256 newNumber) public {
-        number = newNumber;
+
+    constructor() {
+
     }
 
     function increment() public {
